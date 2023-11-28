@@ -1,0 +1,119 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+@media screen and (min-width: 375px) {
+
+    .container{
+        height: 500px;
+        width: 335px;
+        border-radius: 20px;
+        background-color: #EDF2F4;
+        margin: 10% 4%;
+    }
+
+    .qrcode{
+        height: auto;
+        width: 300px;
+        border-radius: 20px;
+        margin: 15px 15px 0px 15px;
+    }
+
+}
+
+@media screen and (min-width:425px) {
+    .container{
+        height: 500px;
+        width: 335px;
+        border-radius: 20px;
+        background-color: #EDF2F4;
+        margin: 10%;
+    }
+
+    .qrcode{
+        height: auto;
+        width: 300px;
+        border-radius: 20px;
+        margin: 15px 15px 0px 15px;
+    }
+    
+}
+@media screen and (min-width:768px) {
+    .container{
+        height: 500px;
+        width: 335px;
+        border-radius: 20px;
+        background-color: #EDF2F4;
+        margin: 100px 0px 50px 210px;
+    }
+
+    .qrcode{
+        height: auto;
+        width: 300px;
+        border-radius: 20px;
+        margin: 15px 15px 0px 15px;
+    }
+    
+}
+@media screen and (min-width:1024px) {
+    .container{
+        height: 500px;
+        width: 335px;
+        border-radius: 20px;
+        background-color: #EDF2F4;
+        margin: 8% 33%;
+    }
+
+    .qrcode{
+        height: auto;
+        width: 300px;
+        border-radius: 20px;
+        margin: 15px 10px 0px 20px;
+    }
+    
+}
+@media  screen and (min-width: 1440px) {
+    
+    .container{
+        height: 500px;
+        width: 335px;
+        border-radius: 20px;
+        background-color: #EDF2F4;
+        margin: 6% 39%;
+    }
+
+    .qrcode {
+        height: auto;
+        width: 300px;
+        border-radius: 20px;
+        margin: 15px 15px 0px 15px;
+    }
+}
+
+body {
+    font-family: Outfit;
+    font-size: 15px;
+    overflow: hidden;
+    background-color: #7b879d;
+}
+
+h2 {
+    margin: 20px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-weight: 700;
+    color: #2B2D42;
+    text-align: center;
+}
+
+p {
+    font-weight: 400;
+    margin: 30px;
+    margin-top: 10px;
+    color: #8D99AE;
+    text-align: center;
+}
